@@ -17,7 +17,7 @@ resource "google_container_node_pool" "addtional-nodes" {
   name       = "addtional-nodes"
   location   = "europe-west4-c"
   cluster    = google_container_cluster.primary.name
-  node_count = 3
+  node_count = 6
 
   node_config {
     preemptible  = true
