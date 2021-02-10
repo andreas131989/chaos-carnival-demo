@@ -1,4 +1,4 @@
 provider "google" {
-  project     = "kubernetes-demo-225509"
+  project     = "<YOUR_GCP_PROJECTID>"
   region      = "europe-west4"
 }

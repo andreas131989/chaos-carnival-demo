@@ -3,7 +3,7 @@
 For this demo, we are using a 3-node GKE cluster. Feel free to modify the TF files. However, the default parameters are enough to run the whole demo.
 
 ## Prerequisites
-* GCP project with admin access [default: "kubernetes-demo-225509"]
+* GCP project with admin access [remember to change the default project]
 * gcloud SDK
 * GKE API enabled in GCP
 * Terraform

@@ -32,8 +32,8 @@ spec:
             - name: TOTAL_CHAOS_DURATION
               value: '60' # in seconds
 
-            # - name: DESTINATION_HOSTS
-            #   value: 'checkoutservice.hipster-shop.svc.cluster.local'
+            - name: DESTINATION_HOSTS
+              value: 'checkoutservice.hipster-shop.svc.cluster.local'
 
             # provide the name of container runtime
             # for litmus LIB, it supports docker, containerd, crio
